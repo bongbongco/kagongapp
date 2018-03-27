@@ -10,11 +10,11 @@
 
 const initialState = {
     isLoggedIn: false
-}
+};
 
  // Reducer
 
-function reducer(state = initalState, action){
+function reducer(state = initialState, action){
     switch(action.type){
         default:
         return state;
